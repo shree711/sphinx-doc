@@ -19,6 +19,11 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
+- name: Install Dependencies
+  run: |
+    pip install sphinx
+    pip install sphinx_rtd_theme  # Or any other theme/extensions used
+
 
 
 # -- Options for HTML output -------------------------------------------------
